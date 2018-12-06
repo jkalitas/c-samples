@@ -4,3 +4,4 @@ project(c_samples C)
 set(CMAKE_C_STANDARD 99)
 
 add_subdirectory(sample1)
+add_subdirectory(sample2)

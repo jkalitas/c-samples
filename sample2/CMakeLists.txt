@@ -1,7 +1,7 @@
 
 cmake_minimum_required(VERSION 3.12)
 
-set(target sample1)
+set(target sample2)
 
 project(${target})
 
