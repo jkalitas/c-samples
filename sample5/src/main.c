@@ -16,7 +16,9 @@ int main() {
     step = 20;      /*step size*/
 
     farenheit = lower;
-    printf("FARENHEIT\t|\tCELSIUS\n");
+    printf("Conversion of Fahrenheit degrees to celsius:\n");
+    printf("ºF\t|\tºC\n");
+    printf("------------------\n");
     while (farenheit <= upper){
         ceslius = multiply_factor * (farenheit-FREEZE_POINT) / divider_factor;
         printf("%d\t|\t%d\n",farenheit,ceslius);
